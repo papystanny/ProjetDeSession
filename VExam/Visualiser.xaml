@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="VExam.Visualiser"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VExam"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="nom" Text="" TextWrapping="Wrap" Height="79" FontSize="30" FontFamily="MV Boli"  Foreground="#FFFF1515" Margin="54,197,41,724"  />
+        <TextBlock x:Name="prenom" Text="" TextWrapping="Wrap" Height="79" FontSize="30" FontFamily="MV Boli"  Foreground="Red"  Margin="64,297,0,624"  />
+        <TextBlock x:Name="dateNaissance" Text="" TextWrapping="Wrap" Height="79" FontSize="30" FontFamily="MV Boli"  Foreground="#FF686868"  Margin="54,-17,9,713" FocusVisualPrimaryBrush="Red"/>
+        <TextBlock x:Name="numeroMaillot" Text="" TextWrapping="Wrap" FontSize="30" FontFamily="MV Boli"  Foreground="#FF686868"  Margin="54,391,-5,524"  FocusVisualPrimaryBrush="Red" />
+        <TextBlock x:Name="poste" Text="" TextWrapping="Wrap" Height="79" FontSize="30" FontFamily="MV Boli"  Foreground="#FF686868"  Margin="54,-17,9,713" FocusVisualPrimaryBrush="Red"/>
+        <TextBlock x:Name="equipe" Text="" TextWrapping="Wrap" FontSize="30" FontFamily="MV Boli"  Foreground="#FF686868"  Margin="54,391,-5,524"  FocusVisualPrimaryBrush="Red" />
+
+        <Button Content="Supprimer" FontSize="45" BorderBrush="#FFE71616" Background="#33F10000" Margin="131,500,0,0" VerticalAlignment="Top" Click="supp"/>
+
+
+    </Grid>
+</Page>
