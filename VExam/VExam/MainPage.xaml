@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="VExam.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VExam"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid Background="#FF915252">
+        <Border BorderThickness="1" BorderBrush="Black"  Background="#FFA4CED3" Margin="533,10,532,905">
+            <Grid Margin="95,0,0,0">
+                <Button Content="Afficher"  Margin="-32,17,0,16" VerticalAlignment="Stretch"  Background="#33F92525"   FontFamily="Calibri" FontSize="33"/>
+                <Button Content="Ajouter" Height="50" Background="#3351E80B"  FontSize="33"  FontFamily="Calibri" Margin="159,0,0,0"  Click="ajouter"/>
+            </Grid>
+        </Border>
+
+        <Grid  Background="#FF120F0F" Margin="60,140,40,45" >
+            <TextBlock Margin="445,240,288,203" Text="sdcdssdcds"></TextBlock>
+            <ScrollViewer>
+                <Grid>
+                    <Frame x:Name="mainFrame"  />
+                </Grid>
+            </ScrollViewer>
+        </Grid>
+
+
+    </Grid>
+</Page>
