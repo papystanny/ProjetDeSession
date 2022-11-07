@@ -13,7 +13,7 @@
         <Border BorderThickness="1" BorderBrush="Black"  Background="#FFA4CED3" Margin="533,10,532,905">
             <Grid Margin="95,0,0,0">
                 <Button Content="Afficher"  Margin="-32,17,0,16" VerticalAlignment="Stretch"  Background="#33F92525"   FontFamily="Calibri" FontSize="33"/>
-                <Button Content="Ajouter" Height="50" Background="#3351E80B"  FontSize="33"  FontFamily="Calibri" Margin="159,0,0,0"  Click="ajouter"/>
+                <Button Content="Ajouter1" Height="50" Background="#3351E80B"  FontSize="33"  FontFamily="Calibri" Margin="159,0,0,0"  Click="ajouter"/>
             </Grid>
         </Border>
 
